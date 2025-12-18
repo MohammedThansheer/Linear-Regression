@@ -1,2 +1,4 @@
 # Linear-Regression
-Car Price Prediction / Regression project
+Car Price Prediction
+
+This project predicts car purchase amounts based on customer features like age, annual salary, credit card debt, and net worth using machine learning regression models. The dataset contains 500 rows with all numeric features and no missing values. Models used include Linear Regression, Ridge Regression (L2), and Lasso Regression (L1). Data was preprocessed with Min-Max scaling, and the dataset was split into training and testing sets (80/20). Models were evaluated using R², Explained Variance, MAE, MSE, and RMSE. Ridge regression achieved the best balance of accuracy and generalization, while Lasso required careful alpha tuning. This project demonstrates predictive modeling, feature scaling, and regression analysis for estimating car prices from customer data. Tools used: Python, Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn.
